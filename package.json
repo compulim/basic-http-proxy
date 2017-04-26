@@ -1,7 +1,7 @@
 {
   "name": "basic-http-proxy",
   "version": "1.0.0",
-  "description": "Basic HTTP/S proxy",
+  "description": "Basic HTTP/S proxy that simply works",
   "main": "lib/index.js",
   "scripts": {
     "start": "node index.js",
