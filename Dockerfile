@@ -8,4 +8,5 @@ EXPOSE 8080
 
 COPY . /home/proxy
 
-ENTRYPOINT node /home/proxy
+WORKDIR /home/proxy
+ENTRYPOINT npm start
