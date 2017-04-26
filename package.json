@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node .",
     "test": "curl --proxy localhost:8080 http://google.com/ && curl --insecure --proxy localhost:8080 https://google.com/"
   },
   "author": "",
