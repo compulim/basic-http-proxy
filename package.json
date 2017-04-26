@@ -1,7 +1,7 @@
 {
-  "name": "compulim-plain-proxy",
+  "name": "basic-http-proxy",
   "version": "1.0.0",
-  "description": "",
+  "description": "Basic HTTP/S proxy",
   "main": "lib/index.js",
   "scripts": {
     "start": "node index.js",
@@ -12,5 +12,13 @@
   "dependencies": {
     "config": "^1.25.1",
     "debug": "^2.6.4"
+  },
+  "keywords": ["http", "proxy", "simple", "basic"],
+  "bin": {
+    "proxy": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/compulim/basic-http-proxy.git"
   }
 }
