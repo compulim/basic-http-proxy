@@ -14,6 +14,7 @@ There are few ways to use the proxy:
 
 * Thru command-line interface
 * Thru another Node.js program
+* Run it in Docker
 
 ### Running it with command-line interface
 
@@ -29,6 +30,15 @@ You can also run the proxy inside another Node.js program.
 require('basic-http-proxy')({
   port: 8080
 });
+```
+
+### Running it with Docker
+
+The proxy server can be run under Docker with [`node:alpine`](https://hub.docker.com/r/_/node/) image.
+
+```
+docker build -t proxy .
+docker run -d -p 8080:8080 proxy
 ```
 
 ## Configuration
