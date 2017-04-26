@@ -2,9 +2,9 @@
   "name": "compulim-plain-proxy",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "start": "node .",
+    "start": "node index.js",
     "test": "curl --proxy localhost:8080 http://google.com/ && curl --insecure --proxy localhost:8080 https://google.com/"
   },
   "author": "",
